@@ -1,1 +1,14 @@
-
+Package: com.gebeto.clone-gitclienthack
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/clone-gitclienthack_0.1.deb
+Size: 3948
+MD5sum: ed362e297836b458243f0149bcd2862a
+SHA1: 9ed10b9dc28cbc07890cf8fa36bf9d5e3194e750
+SHA256: c2ffe893af1cb7d59cb6838898f45d7b621381e366b9754d2afbf0338d1e7858
+Section: Tweaks (Hacks)
+Description: Clone (Git Client) Hack, full activated PUSH and PULL
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Clone - Git Client Hack
