@@ -367,57 +367,66 @@ footer p {
 
 /* Cydia Repository Section */
 .cydia-repo {
-    padding: 60px 0;
-    background-color: #f1f1f1;
+    padding: 80px 0;
+    background: linear-gradient(to bottom, #f9f9f9 0%, #f1f1f1 100%);
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .cydia-repo h3 {
-    font-size: 28px;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 25px;
     color: #333;
+    font-weight: 600;
 }
 
 .cydia-repo p {
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
+    color: #555;
 }
 
+/* Adjusted size and spacing for repo-url-box */
 .repo-url-box {
-    display: inline-block;
-    padding: 10px 20px;
+    display: flex;
+    justify-content: center; /* Centers children horizontally */
+    align-items: center; /* Centers children vertically */
+    padding: 15px 20px; /* Adjust padding for better spacing */
     background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 25px auto; /* Auto margins for horizontal centering */
+    gap: 20px; /* Increased space between the URL and the button */
+    width: 450px; /* Set fixed width to 450px */
 }
 
 .repo-url {
     font-size: 18px;
     color: #6a11cb;
     font-weight: bold;
-    margin-right: 20px;
+    white-space: nowrap; /* Prevents wrapping of the URL */
 }
 
 .btn-add-repo {
     background-color: #00bcd4;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 24px;
     text-decoration: none;
-    border-radius: 5px;
-    display: inline-flex;
+    border-radius: 6px;
+    display: flex;
     align-items: center;
-    gap: 10px;
-    transition: background-color 0.3s ease;
+    gap: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .cydia-icon {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
 }
 
 .btn-add-repo:hover {
     background-color: #019da7;
+    transform: scale(1.05);
 }
 
 /* Responsive Design */
